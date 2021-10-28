@@ -1,0 +1,17 @@
+.sguare {
+    width: 175px;
+    height: 175px;
+    background: #fff;
+    border: 1px solid #222;
+    cursor: pointer;
+    outline: none;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sguare:hover {
+    background: rgb(226, 225, 225);
+    transition: .3s all ease;
+}
