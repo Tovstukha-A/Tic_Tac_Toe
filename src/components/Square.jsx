@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import './Square.css';
+import "./Square.css";
 
-const Square = () => {
-    return (
-        <>
-            <button className="sguare">X</button>
-        </>
-    );
-}
+const Square = (props) => {
+  return (
+    <>
+      <button className="sguare"onClick={props.onClick}>{props.value}</button>
+    </>
+  );
+};
 
 export default Square;
